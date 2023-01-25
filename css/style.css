@@ -100,6 +100,7 @@ b
     justify-content: space-between;
     align-items: center;
     max-width: 1455px;
+    margin: 0px;
 }
 
 .menu-nav
@@ -108,6 +109,39 @@ b
     height: 45px;
 }
 
-@media screen and (min-width: 1024px){
+a
+{
+    font-size: 1.6rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.descktop-menu-nav
+{
+    display: none;
+    justify-content: space-evenly;
+    min-width: 300px;
+}
+
+.desktop-section-content
+{
+    display: none;
+}
+
+.desktop-section-content-fuel-tank-img
+{
+    display: none;
+}
+
+@media screen and (min-width: 1000px){
     
+    .descktop-menu-nav{
+        display: flex;
+    }
+    .menu-nav{
+        display: none;
+    }
+    .greating{
+        display: initial;
+    }
 }
