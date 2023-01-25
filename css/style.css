@@ -68,8 +68,12 @@ b
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+}
+
+.some-text{
+    max-width: 645px;
 }
 
 .staticsics-cart
@@ -95,12 +99,12 @@ b
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 16px;
-    border-bottom: 1px solid  #575555;
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1455px;
-    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu-nav
@@ -123,14 +127,27 @@ a
     min-width: 300px;
 }
 
-.desktop-section-content
-{
+/* .nav-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+.desktop-img{
     display: none;
 }
 
-.desktop-section-content-fuel-tank-img
+.horizontal-line
 {
-    display: none;
+    border: none;
+    background-color:  #575555;
+    height: 2px;
+}
+.desktop-statistics
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 1000px){
@@ -141,7 +158,12 @@ a
     .menu-nav{
         display: none;
     }
-    .greating{
-        display: initial;
+    .desktop-img{
+        display: inline;
+        width: 410px;
+        height: 440px;
+    }
+    .mobile-img{
+        display: none;
     }
 }
