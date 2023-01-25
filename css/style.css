@@ -18,14 +18,33 @@ body
     background-color: var(--main-background-color);
 }
 
+header
+{
+    padding-top: 10px
+}
+
+section
+{
+    padding: 16px 20px 32px;
+}
+
+h1
+{
+    font-size: 3rem;
+    font-weight: 900;
+    max-width: 600px;
+}
+
 p
 {
+
     font-weight: 400;
     font-size: 1.6rem;
 }
 
 b 
 {
+    font-weight: 900;
     color: var(--highlight-color);
 }
 
@@ -33,6 +52,40 @@ b
 {
     width: 73px;
     height: 43px;
+}
+
+.wrapper { 
+    max-width: 2560px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+
+.staticsics-cart
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    max-width: 356px;
+}
+
+.staticsics-cart-text
+{
+    margin-left: 20px;
+}
+
+.nav-panel
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid  #575555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1455px;
 }
 
 .menu-nav
